@@ -19,8 +19,8 @@ class Config(object):
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/67111883d79c64649b50b-47d8ec6c3dd5787194.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7284759394').split()]
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'https://t.me/amime_in_hindi').split(',')
-   FORCE_SUB_CHANNELS(= os.environ.get('FORCE_SUB_CHANNELS', 'https://t.me/OG_Anime_In'))
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', '-1003345643426').split(',')
+   FORCE_SUB_CHANNELS(= os.environ.get('FORCE_SUB_CHANNELS', '-1002238646231'))
     DUMP_CHANNEL = int(os.environ.get("DUMP_CHANNEL", ""))
     
     # wes response configuration     
